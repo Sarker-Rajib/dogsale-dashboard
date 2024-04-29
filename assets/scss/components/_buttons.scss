@@ -1,0 +1,36 @@
+.n-btn {
+    background: #d9d9d9;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border: 0;
+    font-weight: bold;
+
+    &.active {
+        background: #ff914d;
+        color: #fff;
+    }
+}
+
+.post-f-btn {
+    border: 0;
+    background: #1d9bf0;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+    @media(max-width: 450px) {
+        font-size: 12px;
+    }
+}
+
+.copy-btn {
+    background: #ff914d;
+    color: #000000;
+    border-radius: 15px;
+    border: 0;
+    padding: 5px 10px;
+}

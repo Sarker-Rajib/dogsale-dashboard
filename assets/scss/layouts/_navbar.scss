@@ -1,0 +1,54 @@
+.header {
+    .navbar-toggler {
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .static-menu-top {
+        background: #4ba572;
+
+        a {
+            display: inline-block;
+        }
+
+        .post-btn {
+            color: #fff;
+            font-size: 18px;
+            background: #ff914d;
+            border-radius: 15px;
+            padding-block: 10px;
+        }
+    }
+
+    .wel-text {
+        color: #ffde59;
+        font-size: 22px;
+    }
+
+    .colapsed-part {
+        .c-nav {
+            ul {
+                li {
+                    .nav-itm {
+                        border-top: 2px solid #fff;
+                        display: block;
+                        padding: 10px;
+                        color: #fff;
+                        font-size: 20px;
+
+                        img {
+                            width: 40px;
+                            padding: 5px;
+                            margin-right: 5px;
+                        }
+
+                        &:hover {
+                            background: #ffffff3d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
