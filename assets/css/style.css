@@ -193,4 +193,11 @@ body {
   background: #f2f2f2;
   margin-bottom: 10px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.vip-tags li .im-wrap {
+  display: inline-block;
+  margin-right: 10px;
+  width: 55px;
 }/*# sourceMappingURL=style.css.map */
