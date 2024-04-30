@@ -63,3 +63,38 @@
         }
     }
 }
+
+.featured {
+    background: #ffde59;
+    max-width: 280px;
+    margin: auto;
+    position: relative;
+
+    .btn-share {
+        background: #ff3131;
+        color: #fff;
+        padding: 2px 4px;
+        border-radius: 15px;
+        font-size: 10px;
+        display: inline-block;
+
+        &.icon {
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .fe-text {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 2px 5px;
+        background: #fff;
+        color: #ff3131;
+        font-size: 12px;
+    }
+}
